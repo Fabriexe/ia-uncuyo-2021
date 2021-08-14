@@ -213,7 +213,7 @@ programas de IA en particular. Se podría decir que miles de trabajadores han si
 desplazados por estos programas de IA.Hasta ahora, la automatización por medio de la tecnología de
 la IA ha creado más trabajos de los que ha eliminado, y ha creado puestos de trabajo más
 interesantes y mejor pagados. Ahora que el programa IA canónico es un «agente inteligente» diseñado para ayudar a un hombre, la pérdida de trabajo preocupa menos que cuando la IA se centraba en los sistemas expertos diseñados para sustituir a los hombres.
--_Las personas podrían tener demasiado (o muy poco) tiempo de ocio._ las personas que trabajan en las industrias muy relacionadas con el conocimiento han descubierto que forman parte de un sistema computerizado integrado que funciona 24 horas al día; para mantenerlo se han visto forzados a trabajar durante más horas.
+-_Las personas podrían tener demasiado (o muy poco) tiempo de ocio._ las personas que trabajan en las industrias muy relacionadas con el conocimiento han descubierto que forman parte de un sistema computerizado integrado que funciona 24 horas al día; para mantenerlo se han visto forzados a trabajar durante más horas.
 En una economía industrial, las recompensas son aproximadamente proporcionales al tiempo invertido; trabajar el 10 por ciento más llevaría a producir un incremento del 10 por
 ciento en los ingresos. En una economía de la información marcada por la comunicación
 de un ancho de banda alto y por una reproducción fácil de la propiedad intelectual existe una gran recompensa por ser ligeramente mejor que la competencia;
@@ -254,8 +254,7 @@ la inteligencia de la máquina que las especies humanas crearon inicialmente. Ya
 
 Con respecto a la IA débil se argumenta muy bien ya que, si una maquina llegara _"pensar"_ no sentiría emociones que son en la gran mayoria la que nos lleva a decidir algo, no es la misma decision sobre un tema cuando uno esta feliz, triste, cansado,etc.  
 Con respecto a la IA fuerte los problemas de la filosofía de la mente, hablan de un hipotetico caso de que si pudiera tener conciencia y a la vez lo niegan, y la frase que mas me quedo es la de Searle de _"ejecutar el programa adecuado no genera necesariamente entendimiento"_.  
-Con respecto a los riesgos son algunos, pero creo que hay mas ganancias que riesgos al largo plazo
-
-
+Con respecto a los riesgos son algunos, pero creo que hay mas ganancias que riesgos al largo plazo.  
+[Enlance del mapa](https://www.mindomo.com/mindmap/fundamentos-filosficos-de-la-inteligencia-artificial-33d838d1fb974221adf08790c324d250)
 
 
