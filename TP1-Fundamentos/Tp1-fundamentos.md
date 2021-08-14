@@ -213,7 +213,7 @@ programas de IA en particular. Se podría decir que miles de trabajadores han si
 desplazados por estos programas de IA.Hasta ahora, la automatización por medio de la tecnología de
 la IA ha creado más trabajos de los que ha eliminado, y ha creado puestos de trabajo más
 interesantes y mejor pagados. Ahora que el programa IA canónico es un «agente inteligente» diseñado para ayudar a un hombre, la pérdida de trabajo preocupa menos que cuando la IA se centraba en los sistemas expertos diseñados para sustituir a los hombres.
--_Las personas podrían tener demasiado (o muy poco) tiempo de ocio._ las personas que trabajan en las industrias muy relacionadas con el conocimiento han descubierto que forman parte de un sistema computerizado integrado que funciona 24 horas al día; para mantenerlo se han visto forzados a trabajar durante más horas.
+-_Las personas podrían tener demasiado (o muy poco) tiempo de ocio._ las personas que trabajan en las industrias muy relacionadas con el conocimiento han descubierto que forman parte de un sistema computerizado integrado que funciona 24 horas al día; para mantenerlo se han visto forzados a trabajar durante más horas.
 En una economía industrial, las recompensas son aproximadamente proporcionales al tiempo invertido; trabajar el 10 por ciento más llevaría a producir un incremento del 10 por
 ciento en los ingresos. En una economía de la información marcada por la comunicación
 de un ancho de banda alto y por una reproducción fácil de la propiedad intelectual existe una gran recompensa por ser ligeramente mejor que la competencia;
@@ -241,7 +241,7 @@ Hans Moravec predice que los robots
 se igualarán a la inteligencia humana en 50 años y a continuación la excederán:
 >De manera bastante rápida podríamos quedar desplazados y fuera de la existencia. No
 estoy tan alarmado como muchos otros por esta última posibilidad, ya que considero que
-las máquinas del futuro son nuestra progenie, «hijos de mente» construidos a nuestra imagen y semejanza, es decir, nosotros mismos pero en una forma más potente. Al igual que
+las máquinas del futuro son nuestra progenie, «hijos de mente» construidos a nuestra imagen y semejanza, es decir, nosotros mismos pero en una forma más potente. Al igual que
 los hijos biológicos de generaciones anteriores, representarán la mejor esperanza de la
 humanidad para un futuro a largo plazo. Nos corresponde a nosotros ofrecerles todas las
 ventajas, y cómo retirarnos cuando ya no podamos contribuir. (Moravec, 2000.)
