@@ -12,14 +12,14 @@ class randomagent:
         acciones=[]
         X=self.env.sX
         Y=self.env.sY
-        if self.posX<0 and self.posX<X-1:
+        if self.posX>0 and self.posX<X-1:
             acciones.append(1)
             acciones.append(2)
         elif self.posX==0:
             acciones.append(2)
         else:
             acciones.append(1)
-        if self.posY<0 and self.posY<Y-1:
+        if self.posY>0 and self.posY<Y-1:
             acciones.append(3)
             acciones.append(4)
         elif self.posY==0:
@@ -29,7 +29,7 @@ class randomagent:
         return acciones
 
     def nada(self):
-        print("No realizo nada")
+        print("",end="")
     
     def suck(self):
         self.env.clean(self.posX,self.posY)
@@ -48,24 +48,24 @@ class randomagent:
         self.posX+=1
     
     def performance(self):
-        return ("Lo limpiado es: "+str(self.cleaned)+" cuadriculas")
+        return ("Lo limpiado es: "+str(self.cleaned)+" cuadriculas ")
 
     def think(self):
-        acci=self.perspectiva(self)
-        acci.append(5)
+        acci=self.perspectiva()
+        acci.append(5)#Se agregan 2 acciones mas a las acciones posibles y elige una al azar
         acci.append(6)
-        num=randint(0,len(acci))
+        num=randint(0,len(acci)-1)
         if acci[num]==1:
-            self.derecha
+            self.derecha()
         elif acci[num]==2:
-            self.izquierda
+            self.izquierda()
         elif acci[num]==3:
-            self.arriba
+            self.arriba()
         elif acci[num]==4:
-            self.abajo
+            self.abajo()
         elif acci[num]==5:
-            self.suck
+            self.suck()
         elif acci[num]==6:
-            self.nada
+            self.nada()
         self.reslife-=1
             
