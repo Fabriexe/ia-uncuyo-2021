@@ -1,4 +1,3 @@
-from math import trunc
 from random import randint
 import numpy as np
 class environment:
@@ -35,6 +34,12 @@ class environment:
         for i in range(largo):
             print(self.piso[i])
             print("")
-
+    def get_performance(self):
+        cont=0
+        for i in range(self.sX-1):
+            for j in range(self.sY-1):
+                if self.piso[i][j]==1:
+                    cont+=1
+        return("La suciedad del entorno es" +str((cont*100)/(self.sX*self.sY))+"%")
 
 
