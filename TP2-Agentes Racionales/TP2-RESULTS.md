@@ -1,4 +1,4 @@
-#Porcentaje de limpieza del entorno
+# Porcentaje de limpieza del entorno
 
 | 0.1 de suciedad |        |               | 0.2 de suciedad |        |               | 0.4 de suciedad |        |               | 0.8 de suciedad |        |               |
 |-----------------|--------|---------------|-----------------|--------|---------------|-----------------|--------|---------------|-----------------|--------|---------------|
