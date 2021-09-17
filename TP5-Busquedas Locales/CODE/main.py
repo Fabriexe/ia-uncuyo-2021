@@ -1,10 +1,11 @@
 from board import*
 
-Board=board(4)
+Board=board(8)
+Board.printboard()
 
-for i in range(0,1000):
-    Board.HC()
-    print("")
-    Board.printboard()
+for i in range(0,5000):
+    j=Board.annealing()
+    if j==0:
+        print("llegue a las",i)
 print("Fin")
 Board.printboard()

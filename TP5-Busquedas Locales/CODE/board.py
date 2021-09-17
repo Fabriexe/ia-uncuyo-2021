@@ -22,18 +22,18 @@ class board:
             
     def atacadas(self):
         At=0
-        for i in self.queens:
-            At+=i.Attac-1
+        for i in range(self.cant):
+            At+=self.queens[i].Attac-1
         return At/2
 
     def HC(self):
         MejorQ=None
         Bp=99999
-        for i in range(self.cant):
+        for i in range(self.cant-1):
             Qact=self.queens[i]
             Qpos=(Qact.Bpos)
             if Qpos[2]<=Bp:
-                if Qact.self.posY!=Qpos[1] or Qact.self.posX!=Qpos[0]:
+                if Qact.posY!=Qpos[1] or Qact.posX!=Qpos[0]:
                     MejorQ=self.queens[i]
                     Bp=Qpos[2]
         if MejorQ!=None and Bp<=self.val:
@@ -45,8 +45,9 @@ class board:
 
     def annealing(self):
         rand=randint(0,self.cant-1)
+        self.t+=2
         Qact=self.queens[rand]
-        pos=self.positions[randint(0,self.cant-1)]
+        pos=Qact.positions[randint(0,self.cant-2)]
         if pos[2]<= self.val:
             self.val=pos[2]
             Qact.posX=pos[0]
@@ -66,13 +67,13 @@ class board:
                 return self.atacadas()
 
     def printboard(self):
-        board=np.zeros(self.cant,self.cant)
+        board=np.full((self.cant,self.cant)," ")
         for i in range (self.cant):
             Q=self.queens[i]
+            pos=Q.positions
             board[Q.posX][Q.posY]="Q"
         for i in range(self.cant):
+            print("[|",end="")
             for j in range(self.cant):
-                if board[i][j]==0:
-                    board[i][j]=" "
-        for i in range(self.cant):
-            print(board[i])
+                print(board[j][i],end=" |")
+            print("]")
