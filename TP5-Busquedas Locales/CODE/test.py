@@ -8,7 +8,7 @@ print("")
 Hc=0
 timeHistory=[]
 Hcstat=[]
-queens=12
+queens=8
 inte=30
 results=[]
 
@@ -28,9 +28,14 @@ for i in range(0,inte):
         Hc+=1
         timeHistory.append(end-start)
         results.append(last)
+        """
         plt.plot(results)
-        plt.title("Variacion de la funcion Hc")
-        plt.show
+        plt.title("Variacion de la funcion HC 8 reinas")
+        plt.show()"""
+plt.boxplot(timeHistory)
+plt.title("Tiempo de resolución HC")
+
+plt.show()
 
 if len(Hcstat)>=2:
     print(Hc)
@@ -63,9 +68,10 @@ for i in range(0,inte):
         SA+=1
         timeHistory.append(end-start)
         results.append(last)
+        """
         plt.plot(results)
-        plt.title("variacion de la funcion SA")
-        plt.show
+        plt.title("variacion de la funcion SA 8 Reinas")
+        plt.show()"""
 
 if len(SAstates)>=2:
     print(SA)
@@ -76,3 +82,7 @@ if len(SAstates)>=2:
     print("Desviación estandar de estados por resolución",stdev(SAstates))
 else:
     print("No se encontraron soluciones")
+
+plt.boxplot(timeHistory)
+plt.title("Tiempo de resolución SA")
+plt.show()
