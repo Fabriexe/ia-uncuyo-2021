@@ -3,7 +3,7 @@ import numpy as np
 Queens=0
 def dfs(queencant):
     estados=0
-    root=TreeNode(0,0)
+    root=TreeNode(2,0)
     cola=[root]
     while len(cola)>0:
         Nodo=cola.pop(0)
