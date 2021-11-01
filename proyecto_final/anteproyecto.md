@@ -32,5 +32,5 @@ __10:__ Elaborar informe final [5 dias]
 
 ### Cronograma estimado de actividades
 
-![image]()
+![image](https://github.com/Fabriexe/ia-uncuyo-2021/blob/main/proyecto_final/Cronograma.png?raw=true)
 
